@@ -5,7 +5,7 @@ symbol: XAUUSD
 timeframe: H1
 session: LONDON_OPEN
 trigger: breakout
-direction: both
+direction: AUTO
 params:
   range_hours: 2
   atr_mult: 1.5
