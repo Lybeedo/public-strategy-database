@@ -7,11 +7,13 @@ session: LONDON_OPEN
 trigger: breakout
 direction: AUTO
 params:
-  range_hours: 2
+  lookback: 8
   min_range_atr_mult: 0.3
 sl:
   mode: ATR
   mult: 1.5
+tp:
+  rr: 2.0
 enabled: true
 auto: false
 version: '1.0'
